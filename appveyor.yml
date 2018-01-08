@@ -25,6 +25,8 @@ environment:
   - db: mysql
     provider: mysql
 
+clone_folder: %PLUGIN_BASE_DIR%    
+
 services:
   - iis
   - mysql
