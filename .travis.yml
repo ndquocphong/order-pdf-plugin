@@ -33,7 +33,7 @@ env:
 matrix:
   fast_finish: true
   include:
-    - php:5.3
+    - php: 5.3
       dist: precise  
   exclude:
   allow_failures:
